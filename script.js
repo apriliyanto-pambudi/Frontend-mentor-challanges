@@ -12,11 +12,11 @@ const projects = [
     name: "intro-component-with-signup-form-master",
     github: "https://github.com/apriliyanto-pambudi/frontend-mentor-challanges",
   },
-  //   {
-  //     name: "single-price-grid-component-master",
-  //     youtube:
-  //       "https://www.youtube.com/watch?v=pbsvhVPFHX0&list=PLgBH1CvjOA63Xvt0BaeQ7zL4KXX96Wbgp&index=5&t=0s",
-  //   },
+  {
+    name: "single-price-grid-component-master",
+    github:
+      "https://github.com/apriliyanto-pambudi/frontend-mentor-challanges/tree/master/single-price-grid-component-master",
+  },
   //   {
   //     name: "ping-coming-soon-page-master",
   //     youtube:
