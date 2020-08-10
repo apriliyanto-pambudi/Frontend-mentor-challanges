@@ -3,11 +3,11 @@ const projects = [
     name: "four-card-feature-section-master",
     github: "https://github.com/apriliyanto-pambudi/frontend-mentor-challanges",
   },
-  //   {
-  //     name: "base-apparel-coming-soon-master",
-  //     youtube:
-  //       "https://www.youtube.com/watch?v=8A7-0gsbHA0&list=PLgBH1CvjOA63Xvt0BaeQ7zL4KXX96Wbgp&index=3&t=0s",
-  //   },
+  {
+    name: "base-apparel-coming-soon-master",
+    github:
+      "https://github.com/apriliyanto-pambudi/frontend-mentor-challanges/tree/master/base-apparel-coming-soon-master",
+  },
   {
     name: "intro-component-with-signup-form-master",
     github: "https://github.com/apriliyanto-pambudi/frontend-mentor-challanges",
