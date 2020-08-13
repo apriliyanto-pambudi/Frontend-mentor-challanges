@@ -20,7 +20,7 @@ const projects = [
   {
     name: "ping-coming-soon-page-master",
     github:
-      "https://www.youtube.com/watch?v=kvsmBV19Sz0&list=PLgBH1CvjOA63Xvt0BaeQ7zL4KXX96Wbgp&index=6&t=0s",
+      "https://github.com/apriliyanto-pambudi/frontend-mentor-challanges/tree/master/ping-coming-soon-page-master",
   },
   //   {
   //     name: "huddle-landing-page",
