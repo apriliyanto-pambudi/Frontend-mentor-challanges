@@ -1,0 +1,243 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./images/bg-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+    color: #fff;
+    display: flex;
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.4em;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    border: 10px solid green;
+    margin: auto;
+    width: 100%;
+    min-width: 1200px;
+    padding: 30px 20px 0 60px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0;
+    flex-direction: row-reverse;
+}
+
+.flex>div:first-child {
+    flex: .6;
+    margin-right: 100px 0;
+}
+
+.flex>div:last-child {
+    flex: .4;
+    margin-left: 20px;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-weight: 400;
+    opacity: .7;
+}
+
+img {
+    max-width: 100%;
+}
+
+.flex>div:first-child {
+    flex: .6;
+    margin-right: 20px;
+}
+
+.flex>div:last-child {
+    flex: .4;
+    margin-left: 20px;
+}
+
+button {
+    background-color: #fff;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    color: hsl(257, 40%, 49%);
+    font-size: 24px;
+    padding: 20px 80px;
+} */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Poppins:400,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./images/bg-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(257, 40%, 49%);
+    color: #fff;
+    display: flex;
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.4em;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.logo {
+    margin-top: 50px;
+    width: 200px;
+}
+
+h1 {
+    /* font-family: 'Poppins', sans-serif; */
+    font-size: 32px;
+    font-weight: 600;
+    width: 470px;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    opacity: 0.8;
+    width: 400px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    margin: auto;
+    max-width: 100%;
+    width: 1288px;
+    padding: 20px 50px;
+}
+
+.flex {
+    display: flex;
+    margin: 50px 0;
+}
+
+.flex>div:first-child {
+    flex: .5;
+    margin-right: 20px;
+}
+
+.flex>div:last-child {
+    flex: 0.5;
+    margin-left: 57px;
+    margin-top: 30px;
+}
+
+button {
+    background-color: #fff;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    color: hsl(257, 40%, 49%);
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    padding: 12px 55px;
+}
+
+.social-links {
+
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    list-style-type: none;
+    transform: translateY(-20px);
+}
+
+.social-links a {
+    border-radius: 50%;
+    border: 1px solid #fff;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    height: 25px;
+    width: 25px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+
+
+    body {
+        background-size: contain;
+        overflow: auto;
+    }
+
+    .logo {
+        width: 240px;
+    }
+
+    .container {
+        width: 350px;
+    }
+
+    .flex {
+        flex-direction: column;
+        margin: 50px auto;
+
+    }
+
+    .flex>div:first-child {
+        flex: 1;
+        margin-right: 0;
+        margin: 50px 0;
+    }
+
+    .flex>div:last-child {
+        flex: 1;
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    h1 {
+        margin-bottom: 30px;
+        max-width: 700px;
+        width: 340px;
+        letter-spacing: 0;
+    }
+
+    p {
+        margin-bottom: 50px;
+        width: 300px;
+        margin-left: 20px;
+    }
+
+    button {
+        color: 14px;
+        padding: 12px 75px;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+}
