@@ -28,7 +28,7 @@ const projects = [
   //       "https://www.youtube.com/watch?v=wnb-BfjR-oo&list=PLgBH1CvjOA63Xvt0BaeQ7zL4KXX96Wbgp&index=7&t=0s",
   //   },
   {
-    name: "huddle-simple-landing",
+    name: "huddle-landing-section-master",
     youtube:
       "https://github.com/apriliyanto-pambudi/frontend-mentor-challanges/tree/master/huddle-landing-section-master",
   },
