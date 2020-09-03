@@ -32,11 +32,11 @@ const projects = [
     youtube:
       "https://github.com/apriliyanto-pambudi/frontend-mentor-challanges/tree/master/huddle-landing-section-master",
   },
-  // {
-  //   name: "fylo-landing-page",
-  //   youtube:
-  //     "https://www.youtube.com/watch?v=a9-Ro9rc7E4&list=PLgBH1CvjOA63Xvt0BaeQ7zL4KXX96Wbgp&index=9&t=0s",
-  // },
+  {
+    name: "fylo-landing-page",
+    youtube:
+      "https://github.com/apriliyanto-pambudi/frontend-mentor-challanges/tree/master/fylo-landing-page-with-two-column-layout-master",
+  },
   //   {
   //     name: "insure-landing-page",
   //     youtube:
